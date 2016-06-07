@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="main_string">Agenda Jedi</string>
+    <string name="criar_contato">Novo Contato</string>
+    <string name="criar_evento">Novo Evento</string>
+    
+    <string-array name="genero">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <string-array name="proximidade">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
