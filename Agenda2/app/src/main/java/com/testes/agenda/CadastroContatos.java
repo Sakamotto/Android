@@ -4,6 +4,7 @@ package com.testes.agenda;
 import android.app.DialogFragment;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -183,7 +184,7 @@ public class CadastroContatos extends AppCompatActivity implements AdapterView.O
         ObjectInputStream objLeitura;
         // Recuperando os Objetos salvos ...
         try{
-            arqLeitura = new FileInputStream(getFilesDir() + nomeArq);
+            arqLeitura = new FileInputStream(getFilesDir() + File.separator + nomeArq);
             objLeitura = new ObjectInputStream(arqLeitura);
 
 
@@ -195,6 +196,7 @@ public class CadastroContatos extends AppCompatActivity implements AdapterView.O
         }catch (Exception e){
             Log.e("Freeza", "Abre Contato");
             Log.e("Freeza", e.getMessage());
+            e.printStackTrace();
         }
         return null;
     }

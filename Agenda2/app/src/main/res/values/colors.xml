@@ -3,6 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="redDark">#D32F2F</color>
+    <color name="deepOrange">#FF5722</color>
     <color name="meuAzul">#2196f3</color>
+    <color name="meuVerde">#21b684</color>
     <color name="amber">#FBC02D</color>
+    <color name="deepDark">#212121</color>
 </resources>
