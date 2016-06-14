@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="main_string">Agenda Jedi</string>
+    <string name="criar_contato">Novo Contato</string>
+    <string name="criar_evento">Novo Evento</string>
+    
+    <string-array name="genero">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="proximidade">
+        <item>Incompatível</item>
+        <item>Distante</item>
+        <item>Regular</item>
+        <item>Próximo</item>
+        <item>Muito Próximo</item>
+    </string-array>
+
+
+    <string-array name="exclusividade">
+        <item>Aberto</item>
+        <item>Fechado</item>
+        <item>Reservado</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="tipo_evento">
+        <item>Social</item>
+        <item>Profissional</item>
+        <item>Familiar</item>
+    </string-array>
+
+
+
+</resources>
